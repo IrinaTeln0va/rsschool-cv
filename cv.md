@@ -28,3 +28,9 @@ I use a naming scheme based on the BEM principles:
 	<a href="#feedback" class="contacts__btn">Обратный звонок</a>
 </section>
 ```
+### Education
+I used to study online how to implement web pages with HTML and CSS with help of some resources:
+Resource | Course | Author
+------------ | ------------- | -------------
+[Coursera](https://www.coursera.org/) | HTML, CSS, and Javascript for Web Developers | Johns Hopkins University
+[Open Education](https://openedu.ru/) |Web programming | ITMO university
