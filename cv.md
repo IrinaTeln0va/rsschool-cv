@@ -1,6 +1,7 @@
 # Junior Developer Resume
 #### Irina Telnova
 ### Contact Info
+
 tel/whatsapp | email | skype
 ------------ | -------------  | -------------
 89500465563 | ira8365@mail.ru | live:.cid.b7ef035148e0ab7f
@@ -15,6 +16,7 @@ I started programming as a hobby and wrote my first scripts in 2019. I tend to s
 * Git
 ### Code examples
 I use a naming scheme based on the BEM principles:
+
 ``` html
 <section class="contacts">
 	<div class="contacts__mail">info@example.ru</div>
@@ -29,6 +31,7 @@ I use a naming scheme based on the BEM principles:
 	<a href="#feedback" class="contacts__btn">Обратный звонок</a>
 </section>
 ```
+
 ### Education
 
 I used to study online how to implement web pages with HTML and CSS with help of some resources:
@@ -36,4 +39,4 @@ I used to study online how to implement web pages with HTML and CSS with help of
 Resource | Course | Author
 ------------ | ------------- | -------------
 [Coursera](https://www.coursera.org/) | HTML, CSS, and Javascript for Web Developers | Johns Hopkins University
-[Open Education](https://openedu.ru/) |Web programming | ITMO university
+[Open Education](https://openedu.ru/) |Web programming | ITMO University
