@@ -1,0 +1,288 @@
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+
+  font-size: 20px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+header {
+  margin-bottom: 55px;
+
+  border-bottom: 1px solid #cccccc;
+}
+
+.page-title {
+  margin: 0;
+  padding: 25px 0;
+
+  font-size: 35px;
+  color: #666666;
+}
+
+.introduction {
+  margin-bottom: 75px;
+}
+
+.intro-header {
+  display: flex;
+}
+
+.left-side {
+  margin-right: 40px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.author-name {
+  margin: 0;
+
+  font-size: 25px;
+}
+
+.location {
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+
+  font-weight: 300;
+  font-size: 15px;
+
+  background-image: url("img/location.png");
+  background-repeat: no-repeat;
+  background-position: left, center;
+}
+
+.preface {
+  text-indent: 20px;
+}
+
+.contacts {
+  margin-bottom: 75px;
+}
+
+.contacts-title {
+  margin: 0;
+  margin-bottom: 75px;
+
+  font-size: 35px;
+  color: #333333;
+}
+
+.contacts-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+
+  list-style: none;
+}
+
+.contacts-list li {
+  min-width: 30%;
+}
+
+.contact-item {
+  position: relative;
+
+  display: block;
+  padding: 20px;
+
+  font-style: italic;
+  color: inherit;
+  text-decoration: none;
+
+  background-image: linear-gradient(120deg, #ffffff 35%, #1a8cff);
+  background-repeat: no-repeat;
+  background-size: 0;
+  box-shadow: 3px 4px 9px 1px #dddddd;
+  cursor: pointer;
+}
+
+.contact-item:hover {
+  background-image: linear-gradient(120deg, #ffffff 35%, #1a8cff);
+  background-size: 100%;
+
+  transition: background, 0.7s;
+}
+
+.contact-item::before {
+  position: absolute;
+  right: 15px;
+  top: -50%;
+
+  display: block;
+  content: "";
+
+  width: 60px;
+  height: 60px;
+
+  background-color: #ffffff;
+  border-radius: 50%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  box-shadow: 4px 4px 6px 3px rgba(204, 204, 204, 0.6);
+
+  transition-duration: 0.2s;
+}
+
+.tel::before {
+  background-image: url("img/phone.png");
+}
+
+.email::before {
+  background-image: url("img/email.png");
+}
+
+.skype::before {
+  background-image: url("img/skype.png");
+}
+
+.contact-item:hover::before {
+  width: 70px;
+  height: 70px;
+}
+
+.skills {
+  width: 70%;
+  margin-bottom: 65px;
+}
+
+.skills-title {
+  margin: 0;
+  margin-bottom: 45px;
+
+  font-size: 35px;
+  color: #333333;
+}
+
+.skills-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.skills-item {
+  position: relative;
+
+  padding: 20px 70px;
+}
+
+.skill-number {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+
+  padding: 6px 8px;
+
+  font-size: 18px;
+  color: #ffffff;
+
+  background-color: #000000;
+  border-radius: 50%;
+
+  transform: translateY(-50%);
+}
+
+.code-examples {
+  margin-bottom: 55px;
+}
+
+.code-examples-title {
+  margin: 0;
+  margin-bottom: 25px;
+
+  font-size: 35px;
+  color: #333333;
+}
+
+.code-example-wrap {
+  position: relative;
+
+  display: inline-block;
+  margin: 20px 0;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  font-size: 16px;
+
+  background-color: #eeeeee;
+}
+
+.code-example-wrap::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+
+  background-color: transparent;
+  border: 2px dashed #1a8cff;
+
+  transform: rotateZ(5deg);
+}
+
+.education {
+  margin-bottom: 70px;
+}
+
+.education-title {
+  margin: 0;
+  margin-bottom: 25px;
+
+  font-size: 35px;
+  color: #333333;
+}
+
+.education-intro {
+  margin-bottom: 30px;
+}
+
+.cource-item {
+  margin-bottom: 25px;
+
+  font-weight: 700;
+}
+
+.course-name {
+  margin: 10px;
+}
+
+.course-name::after {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  content: "";
+
+  background-image: url("img/tick.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.course-author {
+  margin: 0;
+
+  font-weight: 300;
+  font-size: 18px;
+  color: #222222;
+}
+
+.main-footer {
+  font-style: italic;
+  font-size: 18px;
+  color: #444444;
+
+  border-top: 1px solid #cccccc;
+}
